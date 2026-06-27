@@ -46,7 +46,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           # 使用转换后的小写环境变量 env.OWNER_LOWER
           tags: |
-            ghcr.io/${{ env.OWNER_LOWER }}/kofdcdeploy:current
+            ghcr.io/${{ env.OWNER_LOWER }}/dcdeploy260627:now
           # 使用转换后的小写环境变量 env.REPO_LOWER 避免元数据报错
           labels: |
             org.opencontainers.image.source=https://github.com/${{ env.REPO_LOWER }}
